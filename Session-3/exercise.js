@@ -82,52 +82,6 @@ if (baggageWeightInLbs < 20) {
 
 }
 
-//Exercise Activity. Weekly routine
-
-let daysOfTheWeek = ['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday']
-
-let indexOfDay = 1
-
-if(indexOfDay < 4 ){
-    console.log(`On a ${daysOfTheWeek[indexOfDay]} I go to the gym`)
-}
-else{console.log(`On a ${daysOfTheWeek[indexOfDay]} i do gardening`)
-};
-
-
-//Activity 2:Golf Score
-
-
-const shotNames = ["Hole in one!", "Eagle", "Birdie", "Par", "Bogey", "Double Bogey" , "Quit"]; 
-const par = 0; 
-const strokes = 0;
-
-if (strokes == 1){
-    console.log(shotNames[0])
-}
-else if(strokes <= par - 2){
-    console.log(shotNames[1]);
-}
-else if(strokes == par - 1){
-    console.log(shotNames[2]);
-}
-else if(strokes == par){
-    console.log(shotNames[3]);
-}
-else if(strokes == par + 1 ){
-    console.log(shotNames[4]);
-}
-else if(strokes == par + 2){
-    console.log(shotNames[5]);
-}
-else{
-    console.log(shotNames[6])
-}
-
-
-//Activity 3 Rock Paper Scissors
-
-//Activity 5
 let text = 'hello';
 let times = 0;
 for(times = 0; times < 3; times++ ){
