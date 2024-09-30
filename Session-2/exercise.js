@@ -170,8 +170,22 @@ veges.add(5);
 console.log(veges);
 
 let bus = ['Ryan', 'Brandon', 'Rebecca', 'Richard', 'Jessica', 'Brian', 'Antoinne', 'Grace', 'Zee', 'Ibrahim'];
+bus.pop()
+bus.unshift('Ibrahim')
 
-bus.pop();
-bus.unshift("Ibrahim");
-bus.push("Rebecca");
+let indexOfRebecca = bus.indexOf('Rebecca')
+bus.splice(indexOfRebecca,1)
+bus.push('Rebecca')
+
+let indexOfRichard = bus.indexOf("Richard")
+bus.splice(indexOfRichard,1)
+
+let indexOfAntoinne = bus.indexOf("Antoinne")
+bus.splice(indexOfAntoinne ,0, "Richard")
+
+let indexOfRyan=bus.indexOf("Ryan")
+bus.splice(indexOfRyan,1)
+
+indexOfRebecca=bus.indexOf("Rebecca")
+bus.splice(indexOfRebecca ,0, "Ryan")
 console.log(bus);
