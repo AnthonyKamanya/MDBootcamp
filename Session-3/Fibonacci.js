@@ -1,3 +1,5 @@
+// Write a program that produces the Fibonacci sequence:
+
 const fibonacciSequence = () => {
     let num = 0
     let newNum = 1
