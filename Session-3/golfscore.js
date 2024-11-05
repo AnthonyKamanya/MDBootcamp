@@ -10,8 +10,6 @@
 //Return the correct phrase based on strokes and par.​
 
 
-
-
 const shotNames = ["Hole in one!", "Eagle", "Birdie", "Par", "Bogey", "Double Bogey" , "Quit"]; 
 const par = 0; 
 const strokes = 8;
